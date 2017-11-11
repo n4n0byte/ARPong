@@ -240,8 +240,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\boundaryCollision.cs" />
     <Compile Include="Assets\Cars\Scripts\TakeScreenshot.cs" />
     <Compile Include="Assets\Cars\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\LeftPaddle.cs" />
+    <Compile Include="Assets\map.cs" />
+    <Compile Include="Assets\pushBallStart.cs" />
+    <Compile Include="Assets\RightPaddle.cs" />
+    <Compile Include="Assets\score.cs" />
+    <Compile Include="Assets\SetToBoard.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
   </ItemGroup>
