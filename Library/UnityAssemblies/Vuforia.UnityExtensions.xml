@@ -527,6 +527,18 @@
             as well as a tracked ModelTarget result at runtime
             </summary>
     </member>
+    <member name="T:Vuforia.ModelTargetBehaviour.GuideViewDisplayMode">
+      <summary>
+            The different modes how Vuforia will provide guide view rendering:
+            - No guide view rendering (in case there is custom application logic to display some form of snapping view)
+            - 2D guide view using the integrated or overwritten texture
+            - 3D guide view using the integrated or overwritten 3D model
+            </summary>
+    </member>
+    <member name="F:Vuforia.ModelTargetBehaviour.GuideViewDisplayMode.NoGuideView">
+            Using camel-case for enum here, so that Unity automatically creates nice strings for in editor display
+            e.g. "NoGuideView" becomes "No Guide View" 
+        </member>
     <member name="P:Vuforia.ModelTargetBehaviour.ModelTarget">
       <summary>
             The ModelTarget that this ModelTargetBehaviour augments

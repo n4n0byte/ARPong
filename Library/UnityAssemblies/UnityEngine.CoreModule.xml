@@ -25034,6 +25034,11 @@ A scene may be invalid if, for example, you tried to open a scene that does not 
         <para>All fullscreen resolutions supported by the monitor (Read Only).</para>
       </summary>
     </member>
+    <member name="P:UnityEngine.Screen.safeArea">
+      <summary>
+        <para>Returns the safe area of the screen in pixels (Read Only).</para>
+      </summary>
+    </member>
     <member name="P:UnityEngine.Screen.showCursor">
       <summary>
         <para>Should the cursor be visible?</para>
@@ -26746,7 +26751,7 @@ Note that GPUFences are only supported on PS4.</para>
     </member>
     <member name="P:UnityEngine.SystemInfo.supportsTextureWrapMirrorOnce">
       <summary>
-        <para>Is mirror once texture wrap mode supported? (Read Only)</para>
+        <para>Returns true if the 'Mirror Once' texture wrap mode is supported. (Read Only)</para>
       </summary>
     </member>
     <member name="P:UnityEngine.SystemInfo.supportsVibration">
